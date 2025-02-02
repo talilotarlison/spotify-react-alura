@@ -1,0 +1,171 @@
+/* configurações sidebar lateral */
+aside.sidebar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 12px;
+    width: 300px;
+    background-color: transparent;
+}
+
+nav.sidebar__navegation {
+    background-color: var(--bg-secondary);
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+}
+
+nav.sidebar__navegation figure.logo {
+
+    display: flex;
+    justify-content: start;
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+}
+
+nav.sidebar__navegation figure.logo a img {
+    width: 80px;
+}
+
+aside.sidebar nav .navegacao ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-top: 25px;
+    padding: 0 20px 10px 20px;
+
+}
+
+aside.sidebar nav .navegacao ul li {
+
+    padding: 10px 0px;
+}
+
+aside.sidebar nav ul li a {
+    color: var(--font-color);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: var(--font-primary)
+}
+
+/* section library styles */
+
+section.library {
+    background-color: var(--bg-secondary);
+    border-radius: 8px;
+    padding: 20px 0 0 10px;
+    margin-top: 10px;
+}
+
+section.library div.library__section {
+    color: var(--font-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 16px;
+
+}
+
+button.library__section__btn {
+    all: unset;
+    cursor: pointer;
+    transition: .5s;
+}
+
+button.library__section__btn:hover {
+    color: #fff;
+}
+
+section.library .new_playlist,
+section.library .new_podcast {
+    background-color: #212020;
+    margin-top: 20px;
+    margin-right: 10px;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+section.library .new_playlist p,
+section.library .new_podcast p {
+    font-size: 14px;
+    color: #ffffff;
+    margin: 8px 0px;
+}
+
+section.library .new_playlist p:first-child,
+section.library .new_podcast p:first-child {
+    font-weight: 700;
+}
+
+
+section.library .new_playlist p:nth-child(2),
+section.library .new_podcast p:nth-child(2) {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+section.library .new_playlist button,
+section.library .new_podcast button {
+    color: var(--font-color-btn);
+    font-size: 14px;
+    font-weight: 600;
+    padding: 5px 8px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 20px;
+    transition: .5s;
+    cursor: pointer;
+
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);
+}
+
+
+section.library .new_playlist button:hover,
+section.library .new_podcast button:hover {
+    opacity: 0.9;
+    transform: scale(1.1);
+
+    box-shadow: 0px 0px 90px #000000;
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.1);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.1);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.1);
+    transition: all 200ms ease-in;
+    transform: scale(1.1);
+}
+
+section.library .language a {
+    display: block;
+    font-size: 12px;
+    color: #b3b3b3;
+    margin: 30px 10px;
+    text-decoration: none;
+}
+
+section.library .language a:hover {
+    text-decoration: underline;
+    color: #fff;
+}
+
+section.library .language__btn {
+    border: solid #fff 1px;
+    padding: 8px 10px;
+    border-radius: 20px;
+    display: inline-block;
+    font-size: 13px;
+    color: #ffffff;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-left: 6px;
+}

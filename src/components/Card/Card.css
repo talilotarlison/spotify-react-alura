@@ -1,0 +1,109 @@
+
+#playlist-link {
+    all: unset;
+    cursor: pointer;
+}
+
+#playlist {
+    position: relative;
+    width: 220px;
+    height: 200px;
+    background: #181818;
+    border-radius: 12px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out;
+    overflow: hidden;
+  
+
+}
+
+#playlist:hover {
+    transform: scale(1.05);
+}
+
+#playlist h3 {
+    color: white;
+    font-size: 16px;
+    margin: 10px 0;
+    font-weight: 700;
+}
+
+#playlist .cover {
+    position: absolute;
+    bottom: 10px;
+    left: 140px;
+    /* Ajustado para alinhar à esquerda */
+    width: 100px;
+    height: 100px;
+    transform: rotate(15deg);
+    /* border-radius: 8px; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+a.playlist-link{
+    text-decoration: none;
+}
+
+/* COLOR CARDS */
+.card1 {
+    background-color: rgb(0, 100, 80) !important;
+}
+
+.card2 {
+    background-color: rgb(132, 0, 231) !important;
+}
+
+.card3 {
+    background: rgb(30, 50, 100) !important;
+}
+
+.card4 {
+    background: rgb(140, 25, 50)!important;
+}
+
+.card5 {
+    background: rgb(232, 17, 91)!important;
+}
+
+.card6 {
+    background: rgb(83, 122, 161)!important;
+}
+
+.card7 {
+    background: rgb(142, 102, 172)!important;
+}
+
+.card8 {
+    background: rgb(20, 138, 8)!important;
+}
+
+.card9 {
+    background: rgb(30, 50, 100)!important;
+}
+
+.card10 {
+    background: rgb(233, 20, 41)!important;
+}
+
+.card11 {
+    background: rgb(80, 55, 80)!important;
+}
+
+.card12 {
+    background: rgb(216, 64, 0)!important;
+}
+
+.card13 {
+    background: rgb(186, 93, 7)!important;
+}
+
+.card14 {
+    background: rgb(0, 30, 80)!important;
+}
+
+.card15 {
+    background: rgb(60, 30, 80)!important;
+}
+
+/* FIM COLOR CARDS */

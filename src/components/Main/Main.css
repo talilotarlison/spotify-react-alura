@@ -1,0 +1,40 @@
+
+main {
+    position: absolute;
+    margin-left: 300px;
+    width: calc(100vw - 300px);
+    height: 100vh;
+    background-color: transparent;
+
+}
+
+section.section-artists-playlist {
+    color: aliceblue;
+    height: 80vh;
+    border-radius: 8px;
+    background-color: var(--bg-secondary);
+    margin-top: 95px;
+    margin-right: 10px;
+
+}
+
+section.section-artists-playlist div.playlists {
+    padding: 24px 24px 10px 24px;
+}
+
+section.section-artists-playlist div.playlists h1 {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+section.section-artists-playlist div.playlists h2 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}

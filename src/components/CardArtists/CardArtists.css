@@ -1,0 +1,58 @@
+#all-artists{
+    padding: 20px;
+    display: flex;
+}
+
+.artist__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    text-align: center;
+}
+
+.card_artist {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+
+.card_artist img {
+    width: 100px; /* Ajuste conforme necessário */
+    height: 100px;
+    border-radius: 50%; /* Deixa a imagem circular */
+    object-fit: cover; /* Garante que a imagem se encaixe bem */
+    border: 2px solid #fff; /* Opcional: borda branca para destacar */
+}
+
+.artist__name {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.artist__genre {
+    font-size: 14px;
+    opacity: 0.6; /* Reduz a opacidade */
+    margin-top: 5px;
+}
+
+.fa-circle-play {
+    position: absolute;
+    right: 10px; /* Ajusta para a direita */
+    top: 50%;
+    transform: translateY(-50%); /* Centraliza verticalmente */
+    font-size: 24px;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    padding: 8px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card_artist:hover .fa-circle-play {
+    transform: translateY(-50%) scale(1.2); /* Efeito de crescimento ao passar o mouse */
+}
